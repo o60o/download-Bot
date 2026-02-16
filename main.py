@@ -12,7 +12,7 @@ def run(): app.run(host='0.0.0.0', port=8000)
 def keep_alive(): Thread(target=run).start()
 
 # --- إعداد البوت ---
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '7518820100:AAGb3FTj1thtx16g7ByFz3r5F8h4fxETdcU'
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
